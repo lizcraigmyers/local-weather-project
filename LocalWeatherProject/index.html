@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Local Weather</title>
+	<script type="text/javascript" src="assets/js/lib/jquery-3.1.0.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,500" rel="stylesheet">
+    <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/localWeather.css">
+    <link rel="stylesheet" type="text/css" src="assets/css/weather-icons.css">
+
+
+</head>
+<body>
+
+<div class="container">
+	<center>
+		<h1>Your Local Weather</h1>
+    
+	<button class="btn btn-default btn-lg" id="getWeather">Update</button>    
+
+	<div id="city" class="results">
+    </div>
+            
+    <div id="description" class="results">
+    </div>
+                     
+    <div id="icon" class="results-icon">
+    </div>
+        
+    <div class="results"> 
+        <span id="temp"></span>&#176;<span class="F" id="units">F</span>
+    </div>
+        
+    <div id="humidity" class="results">
+    </div>
+        
+    <div id="wind" class="results">
+    </div>
+
+
+</center>
+</div>
+
+
+<script type="text/javascript" src="assets/js/localWeather.js"></script>
+</body>
+</html>
